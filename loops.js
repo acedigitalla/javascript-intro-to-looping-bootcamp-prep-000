@@ -18,3 +18,15 @@ function whileLoop(n) {
     }
    return 'done';
 }
+
+function maybeTrue() {
+  return array.length = 0;
+}
+
+function doWhileLoop(array) {
+  do {
+    array.shift()
+  }
+  while (array.length > 0 && maybeTrue());
+  return array;
+}
