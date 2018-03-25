@@ -19,7 +19,7 @@ function whileLoop(n) {
    return 'done';
 }
 
-function maybeTrue() {
+function maybeTrue(array) {
   return array.length = 0;
 }
 
